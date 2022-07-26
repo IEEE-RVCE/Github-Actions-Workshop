@@ -6,7 +6,7 @@ app = Flask(__name__)
 # A simple endpoint that returns the list of attendees 
 @app.route('/')
 def index():
-    attendees = ['A', 'B', 'C', 'D'
+    attendees = ['A', 'B', 'C', 'D']
     return {'Attendees': attendees}
 
 
